@@ -4,6 +4,7 @@ language:
   - cpp
 compiler:
   - g++-9
+  - clang-9
 
 addons:
   apt:
@@ -14,6 +15,10 @@ addons:
 
 before_install:
   - pip install --user cpp-coveralls
+
+install:
+  - if [ "$CXX" = "g++" ]; then export CXX="g++-9" CC="gcc-9"; fi
+  - if [ "$CXX" = "clang++" ]; then export CXX="clang++-9" CC="clang-9"; fi;
 
 script:
   - mkdir build
