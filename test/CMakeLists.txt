@@ -68,6 +68,4 @@ target_link_libraries(${PROJECT_NAME} ${LIBRARIES})
 # Use the automatically determined RPATH values
 set_target_properties(${PROJECT_NAME} PROPERTIES INSTALL_RPATH_USE_LINK_PATH TRUE)
 
-gtest_add_tests(TARGET ${PROJECT_NAME} AUTO)
-
-INSTALL(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION tests)
+gtest_discover_tests(${PROJECT_NAME})
