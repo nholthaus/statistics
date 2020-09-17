@@ -4,7 +4,7 @@ language:
   - cpp
 compiler:
   - g++-9
-  - clang-9
+  - clang++-9
 
 addons:
   apt:
