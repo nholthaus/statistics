@@ -2,6 +2,7 @@
 #include <statistics.h>
 #include "units.h"
 #include <deque>
+#include <type_traits>
 
 using namespace units::time;
 using namespace units::literals;

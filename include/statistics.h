@@ -278,7 +278,7 @@ public:
 	//	FRIEND OPERATORS
 	//------------------------------
 
-	template<class U> friend Statistics<U> operator+(const Statistics<U>& population, const T& measurement) noexcept;
+	template<class U> friend Statistics<U> operator+(const Statistics<U>& lhs, const T& rhs) noexcept;
 	template<class U> friend Statistics<U> operator+(const Statistics<U>& lhs, const Statistics<U>& rhs) noexcept;
 	template<class U> friend bool operator==(const Statistics<U>& lhs, const Statistics<U>& rhs) noexcept;
 	template<class U> friend bool operator!=(const Statistics<U>& lhs, const Statistics<U>& rhs) noexcept;
@@ -304,7 +304,7 @@ private:
  * @returns		The resulting population
  */
 template<class T>
-inline Statistics<T> operator+(const Statistics<T>& population, const T& measurement) noexcept
+inline Statistics<T> operator+(const Statistics<T>& lhs, const T& rhs) noexcept
 {
 	Statistics<T> s;
 	s += lhs;
