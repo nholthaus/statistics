@@ -10,6 +10,7 @@ option(BUILD_TESTS "Build the unit tests" OFF)
 #-------------------------------------------------------------------------------
 
 PROJECT(statistics CXX)
+set(CMAKE_CXX_STANDARD 17)
 
 #-------------------------------------------------------------------------------
 #	SOURCE CODE
