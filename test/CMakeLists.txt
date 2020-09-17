@@ -29,7 +29,7 @@ list(APPEND HEADER_FILES
 
 # .cpp files
 list(APPEND SOURCE_FILES
-        test/main.cpp
+        main.cpp
     )
 
 if(MSVC)
