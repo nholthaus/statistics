@@ -23,7 +23,6 @@ add_subdirectory(googletest-1.10.0)
 
 # .h files
 list(APPEND HEADER_FILES
-        ${CMAKE_SOURCE_DIR}/include/statistics.h
         units.h
     )
 
@@ -48,6 +47,7 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 
 list(APPEND LIBRARIES
         googletest
+        statistics
     )
 
 # Remove duplicate library dependencies.
