@@ -18,7 +18,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 # .h files
 list(APPEND HEADER_FILES
-        include/statistics.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/include/statistics.h
     )
 
 # .cpp files
