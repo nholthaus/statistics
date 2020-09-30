@@ -23,7 +23,7 @@ add_subdirectory(googletest-1.10.0)
 
 # .h files
 list(APPEND HEADER_FILES
-        ../include/statistics.h
+        ${CMAKE_SOURCE_DIR}/include/statistics.h
         units.h
     )
 
