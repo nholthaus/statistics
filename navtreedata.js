@@ -22,26 +22,17 @@ for the JavaScript code in this file
 */
 var NAVTREE =
 [
-  [ "Queue", "index.html", [
-    [ "Table of Contents", "index.html#autotoc_md1", null ],
-    [ "Build Instructions", "index.html#autotoc_md2", null ],
-    [ "Usage", "index.html#autotoc_md3", [
-      [ "Concurrent Queue", "index.html#autotoc_md4", [
-        [ "Example", "index.html#autotoc_md5", null ]
-      ] ],
-      [ "Circular Queue", "index.html#autotoc_md6", [
-        [ "Example", "index.html#autotoc_md7", null ]
-      ] ]
+  [ "Statistics", "index.html", [
+    [ "Build Instructions", "index.html#autotoc_md1", null ],
+    [ "Usage", "index.html#autotoc_md2", [
+      [ "Example:", "index.html#autotoc_md3", null ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ],
-        [ "Typedefs", "functions_type.html", null ],
-        [ "Related Functions", "functions_rela.html", null ]
+        [ "Functions", "functions_func.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
