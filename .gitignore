@@ -1,6 +1,9 @@
 # Build Directories
 *[Bb]uild*
 
+# Clion
+.idea
+
 # Prerequisites
 *.d
 
