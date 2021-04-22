@@ -126,9 +126,13 @@ namespace
 		EXPECT_EQ(s, stats);
 	}
 
+	TEST_F(StatisticsTest, latest)
+	{
+		EXPECT_EQ(stats.latest(), 19_s);
+	}
+
 	TEST_F(StatisticsTest, mean)
 	{
-
 		EXPECT_EQ(stats.mean(), 10.478260869565217_s);
 	}
 

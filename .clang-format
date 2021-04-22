@@ -1,9 +1,10 @@
-# Generated from CLion C/C++ Code Style settings
+Language: Cpp
 BasedOnStyle: LLVM
 AccessModifierOffset: -4
 AlignAfterOpenBracket: Align
 AlignConsecutiveAssignments: true
 AlignConsecutiveDeclarations: true
+AlignConsecutiveMacros: true
 AlignEscapedNewlines: Right
 AlignOperands: AlignAfterOperator
 AlignTrailingComments: true
@@ -14,7 +15,7 @@ AllowShortBlocksOnASingleLine: Always
 AllowShortCaseLabelsOnASingleLine: false
 AllowShortFunctionsOnASingleLine: All
 AllowShortIfStatementsOnASingleLine: Always
-AllowShortLambdasOnASingleLine: All
+AllowShortLambdasOnASingleLine: Inline
 AllowShortLoopsOnASingleLine: true
 AlwaysBreakAfterReturnType: None
 AlwaysBreakTemplateDeclarations: Yes
@@ -48,7 +49,7 @@ ColumnLimit: 0
 CompactNamespaces: false
 ContinuationIndentWidth: 8
 IndentCaseLabels: true
-IndentPPDirectives: None
+IndentPPDirectives: AfterHash
 IndentWidth: 4
 KeepEmptyLinesAtTheStartOfBlocks: true
 MaxEmptyLinesToKeep: 1
@@ -56,7 +57,7 @@ NamespaceIndentation: All
 ObjCSpaceAfterProperty: false
 ObjCSpaceBeforeProtocolList: true
 PointerAlignment: Left
-ReflowComments: false
+ReflowComments: true
 SpaceAfterCStyleCast: true
 SpaceAfterLogicalNot: false
 SpaceAfterTemplateKeyword: false
